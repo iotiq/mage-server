@@ -112,7 +112,7 @@ export class ExportDialogComponent implements OnInit, OnDestroy {
 
 	exportTime = 'twentyfour';
 	exportFormat: string;
-	exportFormats: string[] = ['GeoPackage', 'KML', 'GeoJSON', 'CSV', 'Shapefile'];
+	exportFormats: string[] = ['KML', 'GeoJSON', 'GeoPackage', 'CSV'];
 	defaultStartDate: Date
 	defaultEndDate: Date
 	startDate: Date
