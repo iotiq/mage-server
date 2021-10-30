@@ -133,7 +133,6 @@ import {
 import { FeedItemComponent } from './feed/feed-item/feed-item.component';
 import { FeedItemMapPopupComponent } from './feed/feed-item/feed-item-map/feed-item-map-popup.component';
 import { FeedItemSummaryModule } from './feed/feed-item/feed-item-summary/feed-item-summary.module';
-
 import { FeedPanelTabComponent } from './feed-panel/feed-panel-tab.component';
 import { AdminFeedsModule } from './admin/admin-feeds/admin-feeds.module';
 import { ObservationPopupComponent } from './observation/observation-popup/observation-popup.component';
@@ -171,6 +170,7 @@ import { AdminAuthenticationSAMLComponent } from './admin/admin-authentication/a
 import { ButtonPreviewComponent } from './admin/admin-authentication/admin-authentication-create/button-preview/button-preview.component';
 import { AdminAuthenticationSettingsComponent } from './admin/admin-authentication/admin-authentication-settings.component';
 import { AdminSettingsUnsavedComponent } from './admin/admin-settings/admin-settings-unsaved/admin-settings-unsaved.component';
+import { ExportDataComponent } from './export/export-data/export-data.component';
 
 @NgModule({
   declarations: [
@@ -245,6 +245,7 @@ import { AdminSettingsUnsavedComponent } from './admin/admin-settings/admin-sett
     DatetimePickerComponent,
     ExportComponent,
     ExportDialogComponent,
+    ExportDataComponent,
     ObservationEditDiscardComponent,
     ObservationEditPasswordComponent,
     ObservationViewPasswordComponent,
